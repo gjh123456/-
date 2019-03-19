@@ -1,0 +1,11 @@
+import re
+lines_count = 0
+words_count = 0
+chars_count = 0
+words_dict  = {}
+lines_list   = []
+print 'words_count is', len(words_dict)
+print 'lines_count is', lines_count
+print 'chars_count is', chars_count
+for k,v in words_dict.items():
+    print k,v
